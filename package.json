@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "console-browserify": "^1.2.0",
+    "parcel": "^2.3.2",
+    "process": "^0.11.10",
+    "util": "^0.12.4",
+    "w3c-html-validator": "^1.0.3"
+  },
+  "browserslist": "> 0.25%, not dead",
+  "scripts": {
+    "validate": "w3c-html-validator *.html",
+    "start": "parcel --no-cache index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "moment-with-locales-es6": "^1.0.1"
+  }
+}
